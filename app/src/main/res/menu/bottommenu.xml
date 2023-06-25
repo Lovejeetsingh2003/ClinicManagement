@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btmClient"
+        android:title="@string/tvClient" />
+    <item
+        android:id="@+id/btmApp"
+        android:title="@string/tvApp" />
+    <item
+        android:id="@+id/btmEmp"
+        android:title="@string/tvEmp" />
+</menu>

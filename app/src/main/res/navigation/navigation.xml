@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/clientFragment2">
+    <fragment
+        android:id="@+id/clientFragment2"
+        android:name="com.lovejeet.clinicmanagement.ClientFragment"
+        android:label="fragment_client"
+        tools:layout="@layout/fragment_client" />
+    <fragment
+        android:id="@+id/appFragment"
+        android:name="com.lovejeet.clinicmanagement.AppFragment"
+        android:label="fragment_app"
+        tools:layout="@layout/fragment_app" />
+    <fragment
+        android:id="@+id/empFragment"
+        android:name="com.lovejeet.clinicmanagement.EmpFragment"
+        android:label="fragment_emp"
+        tools:layout="@layout/fragment_emp" />
+    <fragment
+        android:id="@+id/addClientFragment"
+        android:name="com.lovejeet.clinicmanagement.AddClientFragment"
+        android:label="fragment_add_client"
+        tools:layout="@layout/fragment_add_client" />
+</navigation>
