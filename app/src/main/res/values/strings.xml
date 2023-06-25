@@ -13,6 +13,10 @@
     <string name="tvGender">Gender</string>
     <string name="tvDate">Visiting Date</string>
     <string name="btnSave">Save Profile</string>
+    <string name="tvPatientName">Patient Name</string>
+    <string name="tvAppDate">Appointment Date</string>
+    <string name="tvAppTime">Appointment Time</string>
+    <string name="tvApp_no">A_no</string>
     <string-array name="Gender">
         <item>Gender</item>
         <item>Male</item>
@@ -54,19 +58,19 @@
         <item>31</item>
     </string-array>
     <string-array name="Month">
-    <item>Month</item>
-    <item>JAN</item>
-    <item>FEB</item>
-    <item>MAR</item>
-    <item>APR</item>
-    <item>MAY</item>
-    <item>JUN</item>
-    <item>JUL</item>
-    <item>AUG</item>
-    <item>SEP</item>
-    <item>OCT</item>
-    <item>NOV</item>
-    <item>DEC</item>
+        <item>Month</item>
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
     </string-array>
     <string-array name="Year">
         <item>Year</item>
@@ -83,4 +87,5 @@
         <item>2022</item>
         <item>2023</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

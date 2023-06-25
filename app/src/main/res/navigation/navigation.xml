@@ -24,4 +24,9 @@
         android:name="com.lovejeet.clinicmanagement.AddClientFragment"
         android:label="fragment_add_client"
         tools:layout="@layout/fragment_add_client" />
+    <fragment
+        android:id="@+id/addAppFragment"
+        android:name="com.lovejeet.clinicmanagement.AddAppFragment"
+        android:label="fragment_add_app"
+        tools:layout="@layout/fragment_add_app" />
 </navigation>

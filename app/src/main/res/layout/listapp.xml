@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    app:strokeColor="@color/black"
+    app:strokeWidth="2dp"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/llClient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvApp_no"
+            android:text="@string/tvApp_no"
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/v_10"
+            app:layout_constraintEnd_toEndOf="@id/v_40"
+            app:layout_constraintTop_toBottomOf="@id/h_07"
+            app:layout_constraintBottom_toTopOf="@id/h_30"
+            android:textSize="30sp"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPatientName"
+            android:text="@string/tvPatientName"
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/v_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/h_07"
+            app:layout_constraintBottom_toTopOf="@id/tvAppDate"
+            android:textSize="25sp"  />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAppDate"
+            android:text="@string/tvAppDate"
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/v_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvPatientName"
+            app:layout_constraintBottom_toTopOf="@id/tvAppTime"
+            android:textSize="25sp"  />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAppTime"
+            android:text="@string/tvAppTime"
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/v_40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAppDate"
+            app:layout_constraintBottom_toTopOf="@id/h_30"
+            android:textSize="25sp"  />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

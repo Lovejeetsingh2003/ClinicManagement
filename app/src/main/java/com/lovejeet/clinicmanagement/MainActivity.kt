@@ -9,6 +9,7 @@ import com.lovejeet.clinicmanagement.R
 class MainActivity : AppCompatActivity() {
     lateinit var navController: NavController
     var clientList = arrayListOf<ClientInfo>()
+    var appList = arrayListOf<AppInfo>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

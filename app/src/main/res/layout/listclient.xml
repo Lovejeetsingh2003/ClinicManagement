@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="10dp"
+    android:layout_margin="10dp"
     app:strokeColor="@color/black"
     app:strokeWidth="2dp"
     android:layout_height="match_parent">
@@ -48,6 +48,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvName"
             android:text="@string/tvName"
+            android:gravity="center"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@id/v_40"
             app:layout_constraintEnd_toEndOf="parent"
