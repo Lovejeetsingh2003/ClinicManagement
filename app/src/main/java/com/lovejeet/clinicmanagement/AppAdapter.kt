@@ -61,12 +61,12 @@ class AppAdapter(var list: ArrayList<AppInfo>) : BaseAdapter(){
         val view = LayoutInflater.from(parent?.context).inflate(R.layout.listapp,parent,false)
         val name = view.findViewById<TextView>(R.id.tvPatientName)
         name.text = "${list[position].name}"
-        val position1 = view.findViewById<TextView>(R.id.tvApp_no)
-        name.text = "${list[position].position1}"
-        val date = view.findViewById<TextView>(R.id.tvAppDate)
-        name.text = "${list[position].date}"
-        val time = view.findViewById<TextView>(R.id.tvAppTime)
-        name.text = "${list[position].time}"
+//        val position1 = view.findViewById<TextView>(R.id.tvApp_no)
+//        name.text = "${list[position + 1].position1}"
+//        val date = view.findViewById<TextView>(R.id.tvAppDate)
+//        name.text = "${list[position].date}"
+//        val time = view.findViewById<TextView>(R.id.tvAppTime)
+//        name.text = "${list[position].time}"
         return view
     }
 }
